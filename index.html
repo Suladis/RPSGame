@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>[M]ahalo.</h1>
+        </header>
+        <div class="nav-game">
+            <nav>
+            </nav>
+            <game class="game-section">
+
+                <div class="instructions">
+                    <p>1. Do you have what it takes to win in game of random Chance? </p>
+                    <p>2. Choose your attacj and pray the computer picks wrong.</p>
+                    <p>3. The winner will be determined based on the rules.</p>
+                    <p>4. Attack beats Summon, Summon beats Dodge, and Dodge beats Attack</p>
+                    <p>Good Luck!!</p>
+                </div>
+                <div class="scoreboard">
+                    <div id="player-score">
+                        <h2>Player</h2>
+                        <div id="pscore">
+                            <progress id="playerhealth" value="100" max="100"></progress>
+                            <h3 id="pscore-num">0</h3>
+                        </div>
+                    </div>
+                    <div class="space">
+
+                    </div>
+                    <div id="computer-score">
+                        <h2>Computer</h2>
+                        <div id="cscore">
+                            <progress id="computerhealth" value="100" max="100"></progress>
+                            <h3 id="cscore-num">0</h3>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div id="computerChoice"></div>
+                <div id="roundwinner"></div>
+                <div id="gamevisual">
+                    <div id="playersection">
+                        <img id="playerimage" src="./assets/playerassets/pidle.png" alt="Player" />
+                    </div>
+                    <div id="computersection">
+                        <img id="computerimage" src="./assets/computerassets/cidle.png" alt="Computer" />
+                    </div>
+                    <div class="game-board">
+                        <div class="gameoptions">
+                            <button id="rock" onclick="play('rock')">Attack</button>
+                            <button id="paper" onclick="play('paper')">Summon</button>
+                            <button id="scissors" onclick="play('scissors')">Dodge</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </game>
+            <footer>
+
+            </footer>
+        </div>
+    </body>
+
+</html>
