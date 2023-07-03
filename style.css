@@ -10,8 +10,12 @@ header {
     background-color: #c4c7ee;
     padding: 1.5%;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: #1c1c1c;
+}
+
+.instructions {
+    font-size: 0.5vw;
 }
 
 /* Navigation styles */
