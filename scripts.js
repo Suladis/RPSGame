@@ -99,9 +99,9 @@ function newGame() {
     document.getElementById("computerhealth").value = 100;
     document.querySelector('.game-board').innerHTML = `
     <div class="gameoptions">
-        <button id="rock" onclick="play('rock')">Rock</button>
-        <button id="paper" onclick="play('paper')">Paper</button>
-        <button id="scissors" onclick="play('scissors')">Scissors</button>
+        <button id="rock" onclick="play('rock')">Attack</button>
+        <button id="paper" onclick="play('paper')">Summon</button>
+        <button id="scissors" onclick="play('scissors')">Dodge</button>
     </div>`;
     document.getElementById('rock').disabled = false;
     document.getElementById('paper').disabled = false;
