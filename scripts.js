@@ -17,6 +17,7 @@ function play(playerChoice) {
 }
 
 
+
 function scoreBoard(result) {
     let playerHealth = document.getElementById("playerhealth").value;
     let computerHealth = document.getElementById("computerhealth").value;
